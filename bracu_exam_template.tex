@@ -1,0 +1,134 @@
+\documentclass[12pt]{exam} 
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem} 
+\usepackage{graphicx} 
+% \pagestyle{headings}
+
+\newcommand{\courseDepartment}{Department of Mathematics \& Natural Sciences (MNS)}
+\newcommand{\instructorCode}{MDO}
+\newcommand{\courseCode}{BTE406}
+\newcommand{\courseTitle}{Genomics \& Proteomics}
+\newcommand{\courseExam}{Midterm}
+\newcommand{\courseSession}{Summer 2024}
+\newcommand{\examMarks}{20}
+\newcommand{\examTime}{60}
+
+\lhead{\instructorCode/\courseCode/\courseSession/\courseExam}
+
+\begin{document}
+\footer{}{}{Page \thepage\ of \numpages}
+% \cfoot{\thepage\ of 2}
+% Header with Logo and Course Information
+\begin{minipage}{0.125\textwidth}
+    \includegraphics[width=\textwidth]{bracu_logo_ai.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.8\textwidth}
+    \begin{center}
+        \emph{\courseDepartment} \\
+        \emph{Course code: \textbf{\courseCode}};  
+        \emph{Course title: \textbf{\courseTitle}} \\
+        \emph{Exam: \textbf{\courseExam}}; \emph{Session: \textbf{\courseSession}} \\
+        \emph{Exam Time: \textbf{\examTime} Minutes}; 
+        \emph{Total Marks: \examMarks} 
+        \makebox[0.6\textwidth][l]{\textbf{Student Name:} \hspace{2.5cm}} 
+        \makebox[0.3\textwidth][l]{\textbf{Student ID:} \hspace{0.5cm}} 
+    \end{center}
+\end{minipage}
+
+% Part A: All Questions Compulsory
+\begin{center}\textbf{Part A} \\
+\textit{Answer all questions}\end{center}
+
+\pointsinrightmargin 
+\bracketedpoints  
+\begin{questions}
+\question[3] Which of the following is NOT a prime number? 
+  
+    \begin{oneparchoices}
+        \choice 2
+        \CorrectChoice 9  
+        \choice 13
+        \choice 23
+    \end{oneparchoices}
+
+\question[5] Simplify the expression: $3x^2 + 5x - 2x^2 - x$   
+  \begin{oneparchoices}
+    \CorrectChoice $x^2 + 4x$  
+    \choice $x^2 - 4x$
+    \choice $5x^2 + 4x$
+    \choice $-x^2 - 4x$
+  \end{oneparchoices} 
+
+  \question[3] True or False - \textit{The building block of DNA is amino acids.} 
+  \begin{oneparchoices}
+    \choice True
+    \CorrectChoice False  
+  \end{oneparchoices}
+\end{questions}
+% Store last question number of Part A.
+\xdef\lastquestionnumber{\arabic{question}} % store the current value of the question counter
+% Part B: Choose 4 out of the following
+\begin{center} \textbf{Part B} \\
+\textit{Answer any \textbf{four} questions from the following} \end{center}
+\begin{questions}
+\setcounter{question}{\lastquestionnumber} % Reset the question counter
+\addtocounter{question}{0} % increment the counter by one
+
+\question[4] Another multiple-choice question. 
+  \begin{oneparchoices}
+    \choice Option A
+    \choice Option B
+    \choice Option C
+    \choice Option D
+  \end{oneparchoices}
+
+\question[2+4] What is the central dogma of molecular biology? Write a short note on the importance of the central dogma.  %\marginpar{2+3}
+
+\question[2] What geometric shape is shown in the figure below?
+\begin{center}
+    \includegraphics[width=0.1\textwidth]{bracu_logo_ai.pdf}
+\end{center}
+
+\question[3] What geometric shapes are shown in the figures below?
+
+\begin{minipage}[t]{0.3\textwidth}  % Adjusted width for three minipages
+    \centering
+    \includegraphics[width=\linewidth]{bracu_logo_ai.pdf}
+    \vfill
+    Figure \emph{left}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{bracu_logo_ai.pdf}
+    Figure \emph{center}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{bracu_logo_ai.pdf}
+    Figure \emph{right}
+\end{minipage}
+
+\question[3.5] What geometric shapes are shown in the figures below?
+
+\begin{minipage}[t]{0.3\textwidth}  % Adjusted width for three minipages
+    \centering
+    \includegraphics[width=\linewidth]{bracu_logo_ai.pdf}
+    \vfill
+    Figure \emph{left}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{bracu_logo_ai.pdf}
+    Figure \emph{center}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{bracu_logo_ai.pdf}
+    Figure \emph{right}
+\end{minipage}
+\end{questions}
+\printanswers
+\end{document}
