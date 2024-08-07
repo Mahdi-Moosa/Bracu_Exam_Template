@@ -1,6 +1,6 @@
 # Introduction
 
-This is LaTeX repository for the midterm/final exams of Brac University.
+This is LaTeX repository for the midterm/final exams of Brac University (This can easily be modified for other institutes by changing name and logo accordingly).
 
 # Question organization
 
